@@ -24,9 +24,9 @@ module.exports = function(config) {
     jspm: {
       config: 'jspm.config.js',
       serveFiles: [
-        'src/**/!(*.spec).js'
+        'src/app/**/!(*.spec).js'
       ],
-      loadFiles: ['src/**/*.spec.js']
+      loadFiles: ['src/app/**/*.spec.js']
     },
 
     coverageReporter: {

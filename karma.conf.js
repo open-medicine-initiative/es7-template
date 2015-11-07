@@ -40,8 +40,8 @@ module.exports = function (config) {
 
         jspm: {
             config: 'jspm.config.js',
-            serveFiles: ['src/**/!(*.spec).js'],
-            loadFiles: ['src/**/*.spec.js']
+            serveFiles: ['src/app/**/!(*.spec).js'],
+            loadFiles: ['src/app/**/*.spec.js']
         },
         proxies: {
             '/jspm_packages': '/base/jspm_packages'
