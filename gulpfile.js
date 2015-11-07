@@ -1,4 +1,4 @@
 // Register a coffeescript preprocessor
-require('coffee-script');
+require('coffee-script/register');
 // Run the main build file
 require('./build/build.coffee');

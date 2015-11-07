@@ -1,14 +1,13 @@
 #Project setup
 
-##Requirements
+##Pre-Requisites
 
-* iojs >= 1.8.1 (tip: use latest nvm to manage environments)
-* phantomjs
+
 
 ##Installation
 
-`sudo npm install -g gulpjs/gulp-cli#4.0 babel coffee-script pm2`
-`npm install`
+ * `sudo npm install -g gulpjs/gulp-cli#4.0 babel coffee-script pm2`
+ * `npm install`
 
 #Building
 
